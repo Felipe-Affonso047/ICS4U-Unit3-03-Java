@@ -54,7 +54,7 @@ final class Main {
         String input1 = userInput.nextLine();
 
         System.out.println("Stack with user input converted to int:");
-        
+
         try {
             int input1Int = Integer.parseInt(input1);
             stack.push(input1Int);
